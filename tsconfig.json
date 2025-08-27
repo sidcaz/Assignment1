@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "include": [
     "**/*",
     "**/.server/**/*",
@@ -24,4 +25,11 @@
     "skipLibCheck": true,
     "strict": true
   }
+=======
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+>>>>>>> e482b5f24e2ebefc872fa56ca5e6829f4774a37d
 }
